@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:antiquewhite; margin : 20px auto;
+    height: 89%;
+    width : 89%;
+    box-shadow: 25px 5px 85px 25px;">
+    <div class="text-center">
+        <h1 style="color:Red; font-family: Algerian; font-size:50px; ">@ViewBag.Welcome</h1>
+    </div>
+    <br />
+    <hr />
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4">
+            <p style="color:black;">Hospital Management system, and supports a collaboration and data management tool for small to medium sized medical businesses.</p>
+            <p>May it be a physicianâ€™s practice or a hospital, Hospital management system can be adapted to suit any need. </p>
+            <p> We understand that off-the-shelf system are seldom inept for needs of medical businesses since there might be many custom features needed, suited to individual medical practices, so we made Hospital Management System with a total open architecture, enabling complete customization.</p>
+        </div>
+        <div class="col-sm-4"><img src="~/Images/hosp-900.jpg" height="350" width="500" alt="Hospital"></div>
+    </div>
+    <hr />
+</body>
